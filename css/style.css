@@ -1,0 +1,211 @@
+/*tipografias y textos*/
+@font-face {
+  font-family: 'renogare_softregular';
+  src: url('../fonts/renogaresoft-regular-webfont.woff2') format('woff2'),
+    url('../fonts/renogaresoft-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h5 {
+  font-family: "renogare_softregular", sans-serif;
+  font-size: 25px;
+}
+h4 {
+  font-family: "renogare_softregular", sans-serif;
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: 'renogare_softregular';
+  src: url('../fonts/renogaresoft-regular-webfont.woff2') format('woff2'),
+    url('../fonts/renogaresoft-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+/*HEADER*/
+/*monograma*/
+.monograma-header {
+  width: 110px;
+  height: 110px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 410px;
+}
+
+/*redes*/
+.redes-header img {
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+.iconos-header {
+  margin-right: 100px;
+  margin-top: 20px;
+  float: right;
+}
+
+/*nav*/
+.nav-center-monograma {
+  margin-left: 15px;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #44ece2;
+}
+
+/*hero image*/
+.hero-image {
+  width: 100%;
+  margin: auto;
+}
+
+/*BODY*/
+/*proyectos*/
+hr {
+  border: 3px solid black;
+  margin: 0;
+}
+
+col-lg-4 col-md-4 col-sm-6 {
+  width: 200px;
+  height: 200px margin: 40px;
+}
+
+.proyectos-texto {
+  margin-left: 40px;
+}
+
+/*overlay/hover*/
+.img-proyectos {
+  width: 95%;
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+.container-proyectos {
+  position: relative;
+}
+
+.proyecto1 {
+  color: white;
+  font-size: 20px;
+  font-family: "renogare_softregular", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 96%;
+  width: 86%;
+  margin-left: 37px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #44ece2;
+}
+
+.container-proyectos:hover .overlay {
+  opacity: 5;
+}
+
+/*servicios*/
+.img-servicios {
+  width: 25%;
+  padding-bottom: 10px;
+}
+
+.servicios-texto {
+  margin-left: -34px;
+}
+
+/*contacto*/
+.container-contacto {
+  background-color: #44ece2;
+  height: 130px;
+  padding-top: 15px;
+}
+
+.borde-contacto {
+  border: 3px solid black;
+  margin-left: 450px;
+  margin-right: 430px;
+}
+
+.icono-mensaje {
+  margin-left: 245px;
+  margin-top: -75px;
+  width: 70px;
+}
+
+.texto-mensaje {
+  margin-top: 40px;
+  margin-right: 60px;
+  color: black;
+}
+
+.texto-mensaje:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/*FOOTER*/
+.monograma-footer {
+  width: 20%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.redes-footer img {
+  margin-left: 1px;
+  text-align: right;
+  height: 40px;
+  width: 40px;
+}
+
+.redes-footer2 {
+  margin-left: 300px;
+}
+
+.mail-footer {
+  margin-left: 100px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  padding-top: 110px;
+}
+
+.copyright-footer {
+  color: white;
+  font-size: 11px;
+  padding-top: 110px;
+}
+
+.container-footer {
+  background-color: black;
+  padding: 40px 0;
+}
